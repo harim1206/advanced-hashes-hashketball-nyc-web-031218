@@ -326,7 +326,7 @@ def long_name_steals_a_ton?
       #binding.pry
 
       if player_name.length > longestName.length
-        longestName = player_name
+        longest_name = player_name
         puts("#{longest_name}'s name length: #{longest_name.length}'")
 
       end
