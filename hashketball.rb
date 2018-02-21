@@ -315,11 +315,14 @@ big_shoe_rebounds
 
 def long_name_steals_a_ton?
 #Write a method that returns true if the player with the longest name had the most steals. Call the method long_name_steals_a_ton?.
-
 #Find the longest name, and most steals
-binding.pry
 
-longestName = 0
+  longestName = 0
+
+  game_hash.each{
+    |location, team_data|
+  }
+
 
 
 end
