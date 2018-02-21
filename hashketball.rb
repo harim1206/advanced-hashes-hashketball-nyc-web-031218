@@ -327,7 +327,7 @@ def long_name_steals_a_ton?
 
       if player_name.length > longestName.length
         longestName = player_name
-        puts("#{player_name}'s name length: #{longestName.length}'")
+        puts("#{longest_name}'s name length: #{longest_name.length}'")
 
       end
     }
