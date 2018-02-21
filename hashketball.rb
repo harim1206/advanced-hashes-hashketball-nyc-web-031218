@@ -340,8 +340,9 @@ def long_name_steals_a_ton?
     |location, team_data|
     team_data[:players].each{
       |player_name, stats|
+      puts("#{player_name}'s steals: '#{stats[:steals]}. #{longest_name}'s steals: #{longest_name_steals}")
       if stats[:steals] > longest_name_steals
-        puts("#{player_name}'s steals: '#{stats[:steals]}. #{longest_name}'s steals: #{longest_name_steals}")
+
         return false
       end
     }
