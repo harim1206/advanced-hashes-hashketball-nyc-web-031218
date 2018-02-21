@@ -313,4 +313,8 @@ end
 
 big_shoe_rebounds
 
-def most_points_scored
+def long_name_steals_a_ton?
+#Write a method that returns true if the player with the longest name had the most steals. Call the method long_name_steals_a_ton?.
+
+
+end
