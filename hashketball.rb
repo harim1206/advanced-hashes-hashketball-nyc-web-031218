@@ -275,7 +275,7 @@ def player_stats(player_name)
 
 end
 
-player_stats("Alan Anderson")
+#player_stats("Alan Anderson")
 
 
 
