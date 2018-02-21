@@ -317,7 +317,7 @@ def long_name_steals_a_ton?
 #Write a method that returns true if the player with the longest name had the most steals. Call the method long_name_steals_a_ton?.
 #Find the longest name, and most steals
 
-  longestName = 0
+  longestName = ""
 
   game_hash.each{
     |location, team_data|
@@ -325,11 +325,9 @@ def long_name_steals_a_ton?
       |player_name, stats|
       #binding.pry
 
-      if player_name.length > longestName
-        longestName = player_name.length
-        biggestShoePlayer = player_name
-
-        puts("#{player_name}'s shoe size: #{biggestShoe}'")
+      if player_name.length > longestName.length
+        longestName = player_name
+        puts("#{player_name}'s name length: #{longestName.length}'")
 
       end
     }
