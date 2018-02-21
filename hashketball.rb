@@ -321,6 +321,20 @@ def long_name_steals_a_ton?
 
   game_hash.each{
     |location, team_data|
+    team_data[:players].each{
+      |player_name, stats|
+      #binding.pry
+
+      if player_name.length > longestName
+        longestName = player_name.length
+        biggestShoePlayer = player_name
+
+        puts("#{player_name}'s shoe size: #{biggestShoe}'")
+
+      end
+    }
+
+
   }
 
 
