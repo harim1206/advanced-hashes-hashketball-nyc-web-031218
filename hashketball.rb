@@ -342,12 +342,13 @@ def long_name_steals_a_ton?
       |player_name, stats|
       puts("#{player_name}'s steals: #{stats[:steals]}. #{longest_name}'s steals: #{longest_name_steals}")
       if stats[:steals] > longest_name_steals
-
+        puts false
         return false
       end
     }
   }
 
+  puts(true)
   return true
 
 
