@@ -341,6 +341,7 @@ def long_name_steals_a_ton?
     team_data[:players].each{
       |player_name, stats|
       if stats[:steals] > longest_name_steals
+        puts("#{player_name}'s steals: '#{stats[:steals]}. #{longest_name}'s steals: #{longest_name_steals}")
         return false
       end
     }
