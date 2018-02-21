@@ -336,6 +336,12 @@ def long_name_steals_a_ton?
     }
   }#/game_hash.each
 
+  game_hash.each{
+    |location, team_data|
+    team_data[:players].each{
+      |player_name, stats|
+    }
+  }
 
 
 
