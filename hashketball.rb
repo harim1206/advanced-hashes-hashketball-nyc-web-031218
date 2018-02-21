@@ -319,6 +319,8 @@ def long_name_steals_a_ton?
 #Find the longest name, and most steals
 binding.pry
 
+longestName = 0
+
 
 end
 
