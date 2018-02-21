@@ -330,7 +330,7 @@ def long_name_steals_a_ton?
         longest_name = player_name
         longest_name_steals = stats[:steals]
         binding.pry
-        puts("#{longest_name}'s name length: #{longest_name.length}")
+        puts("#{longest_name}'s name length: #{longest_name.length}, and steals: #{stats[:steals]}")
 
       end
     }
